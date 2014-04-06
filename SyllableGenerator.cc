@@ -2,14 +2,12 @@
 #include <fstream>
 #include <sstream>
 #include <vector>
-#include <map>
-#include <set>
 
 #define MAX_NUM_SYLLABLES 10
 
 using namespace std;
 
-const string WFSA_FILE = "cipher.wfsa";
+const string WFSA_FILE = "syllables.wfsa";
 const string EMPTY = "*e*";
 const string SPACE = "_";
 
@@ -43,15 +41,18 @@ int main(int argc, char *argv[]) {
   double unif_prob = (double) 1 / MAX_NUM_SYLLABLES;
   double prob_to_end = .0001;
   double lambda = .9;
+  // Allow spaces to start string sometimes.
+  WriteLine(fout, "PRE-START", "START", EMPTY, SPACE, .5, "!");
+  WriteLine(fout, "PRE-START", "START", EMPTY, EMPTY, .5, "!");
   // Draw transitions to each mid node.
   for (int i = 0; i < MAX_NUM_SYLLABLES; ++i) {
     string mid_node = "N" + to_string(i);
-    WriteLine(fout, "START", mid_node, EMPTY, "S", unif_prob, "!");
+    WriteLine(fout, "START", mid_node, EMPTY, "S", unif_prob, "");
   }
   // Draw from last mid node to END node.
   string last_mid_node = "N" + to_string(MAX_NUM_SYLLABLES - 1);
   WriteLine(fout, last_mid_node, "END", EMPTY, EMPTY, 1 - lambda, "!");
-  // Draw from last mid node to START node.
+  // Draw from last mid node to START node, creating a space.
   WriteLine(fout, last_mid_node, "START", EMPTY, SPACE, lambda, "!");
   // Draw transitions between mid nodes.
   for (int i = 0; i < MAX_NUM_SYLLABLES - 1; ++i) {
