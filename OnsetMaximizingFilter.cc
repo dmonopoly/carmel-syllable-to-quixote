@@ -7,7 +7,7 @@
 
 using namespace std;
 
-const string FSA_FILE = "onset_maximizing_filter.fsa";
+const string FST_FILE = "onset_maximizing_filter.fst";
 const string EMPTY = "*e*";
 const string SPACE = "_";
 
@@ -37,27 +37,27 @@ int main(int argc, char *argv[]) {
   vector<string> syl_types{"V", "CV", "CVC", "VC", "CCV", "CCVC", "CVCC", "VCC", "CCVCC"};
   // Begin writing out the WFSA.
   ofstream fout;
-  fout.open(FSA_FILE.c_str());
+  fout.open(FST_FILE.c_str());
   fout << "END" << endl;
   double prob_to_end = .001;
   double lambda = .9;
   // Allow spaces to start string sometimes.
-  WriteLine(fout, "PRE-START", "START", EMPTY, SPACE, .5, "!");
-  WriteLine(fout, "PRE-START", "START", EMPTY, EMPTY, .5, "!");
+  WriteLine(fout, "PRE-START", "START", EMPTY, SPACE, 1, "!");
+//   WriteLine(fout, "PRE-START", "START", EMPTY, EMPTY, .5, "!");
   string cv = "CV"; // This means the syllable starts with C and ends in V.
   string cc = "CC"; // Etc.
   string vc = "VC"; // Etc.
   string vv = "VV"; // Etc.
   // Draw One of main 4 nodes->END.
-  WriteLine(fout, vv, "END", EMPTY, EMPTY, prob_to_end, "!");
-  WriteLine(fout, cv, "END", EMPTY, EMPTY, prob_to_end, "!");
-  WriteLine(fout, vc, "END", EMPTY, EMPTY, prob_to_end, "!");
-  WriteLine(fout, cc, "END", EMPTY, EMPTY, prob_to_end, "!");
+  WriteLine(fout, vv, "END", EMPTY, EMPTY, prob_to_end, "");
+  WriteLine(fout, cv, "END", EMPTY, EMPTY, prob_to_end, "");
+  WriteLine(fout, vc, "END", EMPTY, EMPTY, prob_to_end, "");
+  WriteLine(fout, cc, "END", EMPTY, EMPTY, prob_to_end, "");
   // Allow spaces to end string sometimes.
-  WriteLine(fout, vv, "END", EMPTY, SPACE, prob_to_end, "!");
-  WriteLine(fout, cv, "END", EMPTY, SPACE, prob_to_end, "!");
-  WriteLine(fout, vc, "END", EMPTY, SPACE, prob_to_end, "!");
-  WriteLine(fout, cc, "END", EMPTY, SPACE, prob_to_end, "!");
+  WriteLine(fout, vv, "END", EMPTY, SPACE, prob_to_end, "");
+  WriteLine(fout, cv, "END", EMPTY, SPACE, prob_to_end, "");
+  WriteLine(fout, vc, "END", EMPTY, SPACE, prob_to_end, "");
+  WriteLine(fout, cc, "END", EMPTY, SPACE, prob_to_end, "");
 
   // Draw END back to START
   WriteLine(fout, "END", "START", "_", "_", 1, "!");
@@ -105,23 +105,28 @@ int main(int argc, char *argv[]) {
     } else if (type == "CCV") {
       // above
       cerr << "shouldn't be reached" << endl;
+      return 0;
     } else if (type == "CCVC") {
       // above
       cerr << "shouldn't be reached" << endl;
+      return 0;
     } else if (type == "CVCC") {
       // above
       cerr << "shouldn't be reached" << endl;
+      return 0;
     } else if (type == "VCC") {
       // above
       cerr << "shouldn't be reached" << endl;
+      return 0;
     } else if (type == "CCVCC") {
       // above
       cerr << "shouldn't be reached" << endl;
+      return 0;
     }
   }
 
   fout.close();
-  cout << "Written to " << FSA_FILE << endl;
+  cout << "Written to " << FST_FILE << endl;
   return 0;
 }
 

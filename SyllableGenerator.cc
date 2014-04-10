@@ -47,7 +47,7 @@ int main(int argc, char *argv[]) {
   // Draw transitions to each mid node.
   for (int i = 0; i < MAX_NUM_SYLLABLES; ++i) {
     string mid_node = "N" + to_string(i);
-    WriteLine(fout, "START", mid_node, EMPTY, "S", unif_prob, "");
+    WriteLine(fout, "START", mid_node, EMPTY, "S", unif_prob, "!"); // "We force the number of syllables per word in the model to be fixed and uniform"
   }
   // Draw from last mid node to END node.
   string last_mid_node = "N" + to_string(MAX_NUM_SYLLABLES - 1);
