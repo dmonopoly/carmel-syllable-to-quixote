@@ -58,8 +58,8 @@ int main(int argc, char *argv[]) {
   fout << start_node << endl;
   WriteLine(fout, start_node, start_node, "_", "_", 1, "!");
   WriteLine(fout, start_node, start_node, "V", "V", 1, "!");
+  // TODO: something's wrong...
   int i = 1;
-  // TODO: make spell out proper
   for (string type : syl_types) {
     if (type == "CV") {
       string one;

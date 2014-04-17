@@ -49,7 +49,7 @@ int main(int argc, char *argv[]) {
     cerr << "Usage: ./<exec> " << endl;
     return 0;
   }
-  vector<string> inputs{"V", "S", "N"};
+  vector<string> inputs{"S", "N", "V"};
   vector<string> letters{"A", "I", "N", "O", "U", "a", "b", "c", "d", "e",
 "f", "g", "h", "i", "j", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v",
 "y", "z" };
