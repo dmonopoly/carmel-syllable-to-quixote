@@ -34,7 +34,16 @@ int main(int argc, char *argv[]) {
     cerr << "Usage: ./<exec> " << endl;
     return 0;
   }
-  vector<string> syl_types{"V", "CV", "CVC", "VC", "CCV", "CCVC", "CVCC", "VCC", "CCVCC"};
+  vector<string> syl_types;
+  syl_types.push_back("V");
+  syl_types.push_back("CV");
+  syl_types.push_back("CVC");
+  syl_types.push_back("VC");
+  syl_types.push_back("CCV");
+  syl_types.push_back("CCVC");
+  syl_types.push_back("CVCC");
+  syl_types.push_back("VCC");
+  syl_types.push_back("CCVCC");
   // Begin writing out the WFSA.
   ofstream fout;
   fout.open(FST_FILE.c_str());
@@ -62,7 +71,8 @@ int main(int argc, char *argv[]) {
   // Draw END back to START
   WriteLine(fout, "END", "START", "_", "_", 1, "!");
   // Draw START->One of main 4 nodes.
-  for (string type : syl_types) {
+  for (int i = 0; i < syl_types.size(); ++i) {
+    string type = syl_types[i];
     if (type == "V") {
       WriteLine(fout, "START", vv, type, type, 1, "!");
     } else if (type == "CV") {
@@ -85,7 +95,8 @@ int main(int argc, char *argv[]) {
   }
   // Draw transitions that disallow vowel-initial syllables following
   // consonant-final syllables. So, all except cc vc, cc vv, vc vv, vc vc.
-  for (string type : syl_types) {
+  for (int i = 0; i < syl_types.size(); ++i) {
+    string type = syl_types[i];
     if (type == "V") {
       WriteLine(fout, cv, vv, type, type, 1, "!");
       WriteLine(fout, vv, vv, type, type, 1, "!");

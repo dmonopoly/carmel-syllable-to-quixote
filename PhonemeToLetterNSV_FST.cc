@@ -51,7 +51,10 @@ int main(int argc, char *argv[]) {
     cerr << "Usage: ./<exec> <cipher file>" << endl;
     return 0;
   }
-  vector<string> inputs{"S", "N", "V"};
+  vector<string> inputs;
+  inputs.push_back("S");
+  inputs.push_back("N");
+  inputs.push_back("V");
   string filename_for_cypher = argv[1];
   vector<string> observed_data;
   set<string> letters;
@@ -62,9 +65,6 @@ int main(int argc, char *argv[]) {
     cerr << "Error getting observed data." << endl;
     return 1;
   }
-//   vector<string> tag_list{"B", "D", "G", "J", "L", "T", "a", "b", "d", "e", "f",
-//     "g", "i", "k", "l", "m", "n", "o", "p", "r", "rr", "s", "t", "tS", "u",
-//     "h"};
   // Begin writing the FST.
   ofstream fout;
   fout.open(FST_FILE.c_str());
@@ -73,8 +73,11 @@ int main(int argc, char *argv[]) {
   // Remove the _ that was read in!
   letters.erase("_");
   WriteLine(fout, only_node, only_node, "_", "_");
-  for (string in : inputs) {
-    for (string letter : letters) {
+  for (int i = 0; i < inputs.size(); ++i ) {
+    string in = inputs[i];
+    set<string>::iterator it;
+    for (it = letters.begin(); it != letters.end(); ++it) {
+      string letter = *it;
       WriteLine(fout, only_node, only_node, in, letter);
     }
   }

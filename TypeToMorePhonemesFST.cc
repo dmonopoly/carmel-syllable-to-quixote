@@ -50,7 +50,16 @@ int main(int argc, char *argv[]) {
     cerr << "Usage: ./<exec> " << endl;
     return 0;
   }
-  vector<string> syl_types{"V", "CV", "CVC", "VC", "CCV", "CCVC", "CVCC", "VCC", "CCVCC"};
+  vector<string> syl_types;
+  syl_types.push_back("V");
+  syl_types.push_back("CV");
+  syl_types.push_back("CVC");
+  syl_types.push_back("VC");
+  syl_types.push_back("CCV");
+  syl_types.push_back("CCVC");
+  syl_types.push_back("CVCC");
+  syl_types.push_back("VCC");
+  syl_types.push_back("CCVCC");
   // Begin writing the FST.
   ofstream fout;
   fout.open(FST_FILE.c_str());
@@ -60,7 +69,8 @@ int main(int argc, char *argv[]) {
   WriteLine(fout, start_node, start_node, "V", "V", 1, "!");
   // TODO: something's wrong...
   int i = 1;
-  for (string type : syl_types) {
+  for (int j = 0; j < syl_types.size(); ++j) {
+    string type = syl_types[j];
     if (type == "CV") {
       string one;
       stringstream ss; ss << i;

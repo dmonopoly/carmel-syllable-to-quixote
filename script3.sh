@@ -1,19 +1,20 @@
+#!/bin/sh
 # Like script2, except now we deal with N, S, and V - the end of the 06 paper!
 # cipher_file='Ciphers/spanish.written_short.quoted.txt'
 cipher_file='Ciphers/spanish.written_one_third.txt'
 # cipher_file='Ciphers/spanish.written.quoted.txt'
 
-clang++ -stdlib=libc++ -std=c++11 SyllableGenerator.cc -o 1.out
+clang++ SyllableGenerator.cc -o 1.out
 ./1.out
-clang++ -stdlib=libc++ -std=c++11 SyllableToTypeFST.cc -o 2.out
+clang++ SyllableToTypeFST.cc -o 2.out
 ./2.out
-clang++ -stdlib=libc++ -std=c++11 OnsetMaximizingFilter.cc -o 2a.out
+clang++ OnsetMaximizingFilter.cc -o 2a.out
 ./2a.out
-clang++ -stdlib=libc++ -std=c++11 TypeToMorePhonemesFST.cc -o 3.out
+clang++ TypeToMorePhonemesFST.cc -o 3.out
 ./3.out
-clang++ -stdlib=libc++ -std=c++11 DiphthongGenerator2.cc -o 3a.out
+clang++ DiphthongGenerator2.cc -o 3a.out
 ./3a.out
-clang++ -stdlib=libc++ -std=c++11 PhonemeToLetterNSV_FST.cc CypherReader.cc -o 4.out
+clang++ PhonemeToLetterNSV_FST.cc CypherReader.cc -o 4.out
 ./4.out $cipher_file
 
 carmel --train-cascade -HJ -X .99999 -! 20 -: $cipher_file syllables.wfsa syll_to_type.fst onset_maximizing_filter.fst type_to_more_phonemes.fst diphthong_generator2.fst phoneme_to_letter_nsv.fst

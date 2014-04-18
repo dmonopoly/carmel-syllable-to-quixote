@@ -2,6 +2,7 @@
 #include <fstream>
 #include <sstream>
 #include <vector>
+#include <string>
 
 #define MAX_NUM_SYLLABLES 10
 
@@ -46,18 +47,23 @@ int main(int argc, char *argv[]) {
   WriteLine(fout, "PRE-START", "START", EMPTY, EMPTY, .5, "!");
   // Draw transitions to each mid node.
   for (int i = 0; i < MAX_NUM_SYLLABLES; ++i) {
-    string mid_node = "N" + to_string(i);
+    stringstream ss; ss << i; 
+    string mid_node = "N" + ss.str();
     WriteLine(fout, "START", mid_node, EMPTY, "S", unif_prob, "!"); // "We force the number of syllables per word in the model to be fixed and uniform"
   }
   // Draw from last mid node to END node.
-  string last_mid_node = "N" + to_string(MAX_NUM_SYLLABLES - 1);
+  stringstream ss; ss << MAX_NUM_SYLLABLES - 1; 
+  string last_mid_node = "N" + ss.str();
   WriteLine(fout, last_mid_node, "END", EMPTY, EMPTY, 1 - lambda, "!");
   // Draw from last mid node to START node, creating a space.
   WriteLine(fout, last_mid_node, "START", EMPTY, SPACE, lambda, "!");
   // Draw transitions between mid nodes.
   for (int i = 0; i < MAX_NUM_SYLLABLES - 1; ++i) {
-    string mid_node = "N" + to_string(i);
-    string next_node = "N" + to_string(i + 1);
+    stringstream ss; ss << i;
+    string mid_node = "N" + ss.str();
+    ss.str(""); ss.clear(); 
+    ss << i + 1;
+    string next_node = "N" + ss.str();
     WriteLine(fout, mid_node, next_node, EMPTY, "S", 1, "!");
   }
   fout.close();
