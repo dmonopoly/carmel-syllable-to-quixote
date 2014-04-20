@@ -1,0 +1,26 @@
+----------------------------------------
+Begin PBS Prologue Fri Apr 18 12:22:38 PDT 2014
+Job ID:            7855471.hpc-pbs.hpcc.usc.edu
+Username:          davidzha
+Group:             csci-ar
+Name:              script3.sh
+Queue:             quick
+Shared Access:     no
+All Cores:         no
+Nodes:             hpc2295 
+TMPDIR:            /tmp/7855471.hpc-pbs.hpcc.usc.edu
+End PBS Prologue Fri Apr 18 12:22:38 PDT 2014
+----------------------------------------
+----------------------------------------
+Begin PBS Epilogue Fri Apr 18 12:22:39 PDT 2014
+Job ID:           7855471.hpc-pbs.hpcc.usc.edu
+Username:         davidzha
+Group:            csci-ar
+Job Name:         script3.sh
+Session:          4518
+Limits:           neednodes=1,nodes=1,walltime=01:00:00
+Resources:        cput=00:00:00,mem=0kb,vmem=0kb,walltime=00:00:01
+Queue:            quick
+Shared Access:    no
+End PBS Epilogue Fri Apr 18 12:22:39 PDT 2014
+----------------------------------------

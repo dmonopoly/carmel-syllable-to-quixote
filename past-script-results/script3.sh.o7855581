@@ -1,0 +1,45 @@
+----------------------------------------
+Begin PBS Prologue Fri Apr 18 12:27:53 PDT 2014
+Job ID:            7855581.hpc-pbs.hpcc.usc.edu
+Username:          davidzha
+Group:             csci-ar
+Name:              script3.sh
+Queue:             quick
+Shared Access:     no
+All Cores:         no
+Nodes:             hpc1983 
+TMPDIR:            /tmp/7855581.hpc-pbs.hpcc.usc.edu
+End PBS Prologue Fri Apr 18 12:27:54 PDT 2014
+----------------------------------------
+Written to syllables.wfsa
+Written to syll_to_type.fst
+Written to onset_maximizing_filter.fst
+Written to type_to_more_phonemes.fst
+Written to diphthong_generator2.fst
+Written to phoneme_to_letter_nsv.fst
+"_" "N" "S" "V" "N" "V" "S" "V" "_" "N" "V" "S" "N" "V" "_" "N" "V" "S" "_" "V" "S" "N" "V" "S" "V" "V" "S" "V" "_" "N" "V" "N" "V" "S" "N" "V" "_" "N" "V" "S" "_" "N" "V" "V" "N" "V" "N" "V" "_" "N" "V" "_" "N" "V" "_" "N" "V" "S" "N" "S" "V"
+"_" "N" "V" "N" "V" "N" "V" "S" "V" "_" "N" "S" "V" "N" "V" "S" "V" "_" "N" "V" "V" "_" "N" "S" "V" "N" "V" "_" "N" "V" "_" "N" "V" "_" "N" "V" "S" "N" "V" "N" "V" "V" "S" "_" "V" "_" "V" "N" "V" "S" "N" "V" "N" "V" "V" "_" "N" "V" "S" "_" "N" "V" "N" "V" "S" "V" "_" "N" "V" "N" "V" "S" "N" "V"
+"_" "N" "V" "S" "_" "N" "V" "V" "N" "V" "N" "V" "_" "N" "V" "_" "N" "V" "_" "N" "V" "S" "N" "S" "V" "_"
+"_" "V" "S" "_" "V" "S" "_" "N" "V" "N" "V" "S" "_" "N" "V" "_" "N" "V" "_" "N" "V" "S" "N" "S" "V" "_" "N" "V" "_" "N" "V" "V" "V" "_" "S" "V" "N" "V" "S" "V" "_" "S" "V" "_" "N" "V" "V" "V" "S" "V" "_" "V" "N" "V" "S" "N" "V" "S" "_" "N" "V" "_" "S" "V" "_" "N" "V" "_" "N" "V" "N" "S" "V"
+"_" "N" "V" "V" "S" "N" "V" "_" "N" "V" "V" "_" "N" "V" "N" "V" "V" "_" "V" "S" "_" "N" "V" "N" "V" "S" "N" "V" "_" "N" "V" "_" "N" "V" "S" "_" "N" "V" "_" "N" "V" "S" "N" "V" "_" "V" "S" "_" "V" "S" "N" "V" "S" "N" "V" "S" "V" "_" "V" "N" "V" "S" "N" "V" "_" "V" "S" "N" "V" "N" "V" "V" "_"
+"_" "S" "V" "N" "V" "S" "_" "N" "S" "V" "N" "V" "_" "V" "_" "N" "V" "S" "N" "V" "_" "N" "V" "S" "S" "V" "N" "V" "S" "_" "V" "S" "V" "_" "V" "S" "N" "V" "_" "N" "V" "_" "V" "S" "N" "V" "_" "N" "V" "S" "_" "N" "V" "N" "V" "_" "N" "V" "V" "_" "N" "V" "N" "S" "V" "S" "V" "_"
+"_" "S" "V" "S" "N" "V" "N" "V" "S" "_" "N" "V" "S" "_" "N" "V" "S" "_" "S" "V" "N" "S" "V" "S" "_" "N" "V" "V" "S" "V" "S" "_" "V" "_" "N" "V" "V" "N" "S" "V" "S" "N" "V" "S" "_" "N" "V" "S" "_" "S" "V" "N" "V" "N" "V" "S" "_" "N" "V" "S" "N" "V" "N" "V" "S" "_" "N" "V" "S"
+"_" "N" "V" "V" "N" "S" "V" "S" "_" "V" "S" "N" "V" "S" "_" "N" "V" "S" "V" "N" "V" "S" "V" "_" "N" "V" "_" "V" "N" "V" "N" "V" "N" "V" "S" "V" "_" "N" "V" "S" "_" "N" "V" "N" "V" "S" "N" "V" "S" "_" "N" "V" "S" "S" "V" "N" "V" "V" "S" "_" "N" "V" "S" "_" "N" "S" "V" "S"
+"_" "N" "V" "S" "N" "V" "S" "_" "N" "V" "_" "S" "V" "_" "N" "V" "N" "V" "V" "S" "N" "V" "_" "V" "S" "_" "S" "V" "S" "N" "V" "_" "N" "V" "N" "S" "V" "_" "N" "V" "S" "N" "S" "V" "V" "V" "S" "_" "S" "V" "V" "V" "_" "N" "V" "_" "N" "V" "S" "V" "S" "N" "V" "_" "N" "V" "S" "N" "V" "S" "_" "N" "V"
+"_" "N" "V" "N" "S" "V" "N" "V" "_" "N" "V" "S" "V" "_" "N" "V" "S" "_" "N" "V" "V" "S" "N" "V" "S" "_" "N" "V" "S" "_" "N" "V" "S" "_" "N" "V" "S" "N" "V" "N" "S" "V" "S" "_" "N" "V" "_" "N" "V" "_" "N" "V" "S" "N" "V" "_" "V" "_" "N" "V" "S" "_" "N" "V" "V" "S" "_" "N" "V"
+"_" "V" "S" "N" "S" "V" "S" "V" "N" "V" "S" "V" "_" "S" "V" "_" "S" "V" "S" "N" "V" "N" "V" "_" "N" "V" "S" "_" "S" "V" "_" "N" "V" "S" "N" "V" "S" "V" "_" "N" "V" "_" "N" "V" "_" "N" "V" "S" "_" "N" "V" "S" "V" "_" "N" "V" "S" "V" "V" "_" "V" "S" "_" "S" "V" "_" "N" "V" "S" "V" "_" "V" "S" "V"
+"_" "V" "N" "V" "_" "N" "V" "V" "_" "N" "V" "S" "V" "N" "V" "_" "N" "V" "_" "N" "V" "S" "_" "N" "V" "V" "S" "V" "S" "N" "V" "_" "V" "_" "V" "S" "V" "_" "S" "V" "N" "S" "V" "S" "V" "_" "N" "V" "V" "_" "S" "V" "_" "N" "S" "V" "N" "V" "N" "V" "_" "V" "_" "N" "V" "S" "_" "N" "V" "V" "S" "N" "V" "_"
+"_" "V" "_" "V" "S" "_" "N" "V" "N" "V" "_" "N" "V" "_" "N" "V" "S" "N" "V" "_" "V" "_" "N" "S" "V" "N" "V" "_" "N" "V" "V" "_" "V" "S" "V" "_" "V" "S" "S" "V" "S" "N" "V" "N" "V" "_" "V" "S" "_" "S" "V" "N" "V" "S" "_" "N" "V" "N" "V" "_" "N" "V" "N" "V" "N" "V" "_" "N" "V"
+----------------------------------------
+Begin PBS Epilogue Fri Apr 18 12:28:40 PDT 2014
+Job ID:           7855581.hpc-pbs.hpcc.usc.edu
+Username:         davidzha
+Group:            csci-ar
+Job Name:         script3.sh
+Session:          14972
+Limits:           neednodes=1,nodes=1,walltime=01:00:00
+Resources:        cput=00:00:27,mem=53604kb,vmem=250992kb,walltime=00:00:47
+Queue:            quick
+Shared Access:    no
+End PBS Epilogue Fri Apr 18 12:28:40 PDT 2014
+----------------------------------------

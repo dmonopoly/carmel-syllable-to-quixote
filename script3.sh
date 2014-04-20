@@ -1,8 +1,10 @@
 #!/bin/sh
+#PBS -l walltime=1:00:00
+cd $PBS_O_WORKDIR
 # Like script2, except now we deal with N, S, and V - the end of the 06 paper!
 # cipher_file='Ciphers/spanish.written_short.quoted.txt'
-cipher_file='Ciphers/spanish.written_one_third.txt'
-# cipher_file='Ciphers/spanish.written.quoted.txt'
+# cipher_file='Ciphers/spanish.written_one_third.txt'
+cipher_file='Ciphers/spanish.written.quoted.txt'
 
 clang++ SyllableGenerator.cc -o 1.out
 ./1.out

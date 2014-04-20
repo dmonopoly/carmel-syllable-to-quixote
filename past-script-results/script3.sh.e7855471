@@ -1,0 +1,26 @@
+clang: error: no such file or directory: 'SyllableGenerator.cc'
+clang: error: no input files
+/var/spool/torque/mom_priv/jobs/7855471.hpc-pbs.hpcc.usc.edu.SC: line 9: ./1.out: No such file or directory
+clang: error: no such file or directory: 'SyllableToTypeFST.cc'
+clang: error: no input files
+/var/spool/torque/mom_priv/jobs/7855471.hpc-pbs.hpcc.usc.edu.SC: line 11: ./2.out: No such file or directory
+clang: error: no such file or directory: 'OnsetMaximizingFilter.cc'
+clang: error: no input files
+/var/spool/torque/mom_priv/jobs/7855471.hpc-pbs.hpcc.usc.edu.SC: line 13: ./2a.out: No such file or directory
+clang: error: no such file or directory: 'TypeToMorePhonemesFST.cc'
+clang: error: no input files
+/var/spool/torque/mom_priv/jobs/7855471.hpc-pbs.hpcc.usc.edu.SC: line 15: ./3.out: No such file or directory
+clang: error: no such file or directory: 'DiphthongGenerator2.cc'
+clang: error: no input files
+/var/spool/torque/mom_priv/jobs/7855471.hpc-pbs.hpcc.usc.edu.SC: line 17: ./3a.out: No such file or directory
+clang: error: no such file or directory: 'PhonemeToLetterNSV_FST.cc'
+clang: error: no such file or directory: 'CypherReader.cc'
+clang: error: no input files
+/var/spool/torque/mom_priv/jobs/7855471.hpc-pbs.hpcc.usc.edu.SC: line 19: ./4.out: No such file or directory
+option train-cascade = 
+File Ciphers/spanish.written_one_third.txt could not be opened for input.
+awk: cmd. line:1: fatal: cannot open file `Ciphers/spanish.written_one_third.txt' for reading (No such file or directory)
+option project-right = 
+option project-identity-fsa = 
+File type_to_more_phonemes.fst.trained could not be opened for input.
+File diphthong_generator2.fst.trained could not be opened for input.
