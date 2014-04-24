@@ -1,0 +1,45 @@
+----------------------------------------
+Begin PBS Prologue Thu Apr 24 16:21:59 PDT 2014
+Job ID:            7908160.hpc-pbs.hpcc.usc.edu
+Username:          davidzha
+Group:             csci-ar
+Name:              script3a.sh
+Queue:             quick
+Shared Access:     no
+All Cores:         no
+Nodes:             hpc2316 
+TMPDIR:            /tmp/7908160.hpc-pbs.hpcc.usc.edu
+End PBS Prologue Thu Apr 24 16:21:59 PDT 2014
+----------------------------------------
+Written to syllables.wfsa
+Written to syll_to_type.fst
+Written to onset_maximizing_filter.fst
+Written to type_to_more_phonemes.fst
+Written to diphthong_generator2.fst
+Written to phoneme_to_letter_nsv.fst
+"CCV" "CV" "CV" "_" "CVC" "CV" "_" "CVC" "_" "VC" "CV" "CV" "V" "CV" "_" "CV" "CVC" "CV" "_" "CVC" "_" "CV" "V" "CV" "CV" "_" "CV" "_" "CV" "_" "CVC" "CCV"
+"CV" "CV" "CV" "CV" "_" "CCV" "CV" "CV" "_" "CV" "V" "_" "CCV" "CV" "_" "CV" "_" "CV" "_" "CVC" "CV" "CV" "VC" "_" "V" "_" "V" "CVC" "CV" "CV" "V" "_" "CVC" "_" "CV" "CV" "CV" "_" "CV" "CVC" "CV"
+"CVC" "_" "CV" "V" "CV" "CV" "_" "CV" "_" "CV" "_" "CVC" "CCV"
+"VC" "_" "VC" "_" "CV" "CVC" "_" "CV" "_" "CV" "_" "CVC" "CCV" "_" "CV" "_" "CV" "V" "V" "_" "CVCC" "CV" "_" "CV" "_" "CV" "V" "V" "CV" "_" "V" "CVC" "CVC" "_" "CV" "_" "CV" "_" "CV" "_" "CV" "CCV"
+"CV" "VC" "CV" "_" "CV" "V" "_" "CV" "CV" "V" "_" "VC" "_" "CV" "CVC" "CV" "_" "CV" "_" "CVC" "_" "CV" "_" "CVC" "CV" "_" "VC" "_" "VC" "CV" "CCV" "CV" "_" "V" "CVC" "CV" "_" "VC" "CV" "CCV"
+"CV" "CVC" "_" "CCV" "CV" "_" "V" "_" "CVC" "CV" "_" "CVC" "CV" "CVC" "_" "V" "CV" "_" "V" "CCV" "_" "CV" "_" "VC" "CV" "_" "CVC" "_" "CV" "CV" "_" "CV" "V" "_" "CVC" "CV" "CV"
+"CVC" "CV" "CVC" "_" "CVC" "_" "CVC" "_" "CV" "CCVC" "_" "CV" "V" "CVC" "_" "V" "_" "CV" "V" "CCVC" "CVC" "_" "CVC" "_" "CV" "CV" "CVC" "_" "CVC" "CV" "CVC" "_" "CVC"
+"CV" "VC" "CVC" "_" "VC" "CVC" "_" "CV" "CV" "CV" "CV" "_" "CV" "_" "V" "CV" "CV" "CV" "CV" "_" "CVC" "_" "CV" "CVC" "CVC" "_" "CVC" "CV" "CV" "VC" "_" "CVC" "_" "CCVC"
+"CVC" "CVC" "_" "CV" "_" "CV" "_" "CV" "CV" "VC" "CV" "_" "VC" "_" "CVC" "CV" "_" "CV" "CCV" "_" "CVC" "CCV" "V" "VC" "_" "CV" "V" "V" "_" "CV" "_" "CV" "CVC" "CV" "_" "CVC" "CVC" "_" "CV"
+"CV" "CCV" "CV" "_" "CV" "CV" "_" "CVC" "_" "CV" "VC" "CVC" "_" "CVC" "_" "CVC" "_" "CVC" "CV" "CCVC" "_" "CV" "_" "CV" "_" "CVC" "CV" "_" "V" "_" "CVC" "_" "CV" "VC" "_" "CV"
+"VC" "CCV" "CV" "CV" "CV" "_" "CV" "_" "CVC" "CV" "CV" "_" "CVC" "_" "CV" "_" "CV" "CCVCC" "_" "CV" "_" "CV" "_" "CVC" "_" "CV" "CV" "_" "CVC" "CV" "_" "VC" "_" "CV" "_" "CV" "CV" "_" "V" "CV"
+"V" "CV" "_" "CV" "V" "_" "CV" "CV" "CV" "_" "CV" "_" "CVC" "_" "CV" "V" "CVC" "CV" "_" "V" "_" "V" "CV" "_" "CV" "CCV" "CV" "_" "CV" "V" "_" "CV" "_" "CCV" "CV" "CV" "_" "V" "_" "CVC" "_" "CV" "VC" "CV"
+"V" "_" "VC" "_" "CV" "CV" "_" "CV" "_" "CVC" "CV" "_" "V" "_" "CCV" "CV" "_" "CV" "V" "_" "VCC" "_" "VC" "CV" "CCV" "CV" "_" "VC" "_" "CV" "CVC" "_" "CV" "CV" "_" "CV" "CV" "CV" "_" "CV"
+----------------------------------------
+Begin PBS Epilogue Thu Apr 24 16:22:45 PDT 2014
+Job ID:           7908160.hpc-pbs.hpcc.usc.edu
+Username:         davidzha
+Group:            csci-ar
+Job Name:         script3a.sh
+Session:          11018
+Limits:           neednodes=1,nodes=1,walltime=01:00:00
+Resources:        cput=00:00:04,mem=47356kb,vmem=246464kb,walltime=00:00:46
+Queue:            quick
+Shared Access:    no
+End PBS Epilogue Thu Apr 24 16:22:45 PDT 2014
+----------------------------------------

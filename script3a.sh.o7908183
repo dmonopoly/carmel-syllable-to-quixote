@@ -1,0 +1,132 @@
+----------------------------------------
+Begin PBS Prologue Thu Apr 24 16:25:56 PDT 2014
+Job ID:            7908183.hpc-pbs.hpcc.usc.edu
+Username:          davidzha
+Group:             csci-ar
+Name:              script3a.sh
+Queue:             quick
+Shared Access:     no
+All Cores:         no
+Nodes:             hpc2305 
+TMPDIR:            /tmp/7908183.hpc-pbs.hpcc.usc.edu
+End PBS Prologue Thu Apr 24 16:25:56 PDT 2014
+----------------------------------------
+Written to syllables.wfsa
+Written to syll_to_type.fst
+Written to onset_maximizing_filter.fst
+Written to type_to_more_phonemes.fst
+Written to diphthong_generator2.fst
+Written to phoneme_to_letter_nsv.fst
+"CCV" "CV" "CV" "_" "CVC" "CV" "_" "CVC" "_" "VC" "CV" "CV" "V" "CV" "_" "CV" "CVC" "CV" "_" "CVC" "_" "CV" "V" "CV" "CV" "_" "CV" "_" "CV" "_" "CVCC" "CV"
+"CV" "CV" "CV" "CV" "_" "CCV" "CV" "CV" "_" "CV" "V" "_" "CCV" "CV" "_" "CV" "_" "CV" "_" "CVC" "CV" "CV" "VC" "_" "V" "_" "V" "CVC" "CV" "CV" "V" "_" "CVC" "_" "CV" "CV" "CV" "_" "CV" "CVC" "CV"
+"CVC" "_" "CV" "V" "CV" "CV" "_" "CV" "_" "CV" "_" "CVCC" "CV"
+"VC" "_" "VC" "_" "CV" "CVC" "_" "CV" "_" "CV" "_" "CVCC" "CV" "_" "CV" "_" "CV" "V" "V" "_" "CVC" "CCV" "_" "CV" "_" "CV" "V" "V" "CV" "_" "V" "CVC" "CVC" "_" "CV" "_" "CV" "_" "CV" "_" "CV" "CCV"
+"CV" "VC" "CV" "_" "CV" "V" "_" "CV" "CV" "V" "_" "VC" "_" "CV" "CVC" "CV" "_" "CV" "_" "CVC" "_" "CV" "_" "CVC" "CV" "_" "VC" "_" "VC" "CV" "CCV" "CV" "_" "V" "CVC" "CV" "_" "VC" "CV" "CV" "V"
+"CV" "CVC" "_" "CCV" "CV" "_" "V" "_" "CVC" "CV" "_" "CVC" "CV" "CVC" "_" "V" "CV" "_" "V" "CCV" "_" "CV" "_" "VC" "CV" "_" "CVC" "_" "CV" "CV" "_" "CV" "V" "_" "CVC" "CV" "CV"
+"CVC" "CV" "CVC" "_" "CVC" "_" "CVC" "_" "CV" "CCVC" "_" "CV" "V" "CVC" "_" "V" "_" "CV" "V" "CCVC" "CVC" "_" "CVC" "_" "CV" "CV" "CVC" "_" "CVC" "CV" "CVC" "_" "CVC"
+"CV" "VC" "CVC" "_" "VC" "CVC" "_" "CV" "CV" "CV" "CV" "_" "CV" "_" "V" "CV" "CV" "CV" "CV" "_" "CVC" "_" "CV" "CVC" "CVC" "_" "CVC" "CV" "CV" "VC" "_" "CVC" "_" "CCVC"
+"CVC" "CVC" "_" "CV" "_" "CV" "_" "CV" "CV" "VC" "CV" "_" "VC" "_" "CVC" "CV" "_" "CV" "CCV" "_" "CVC" "CCV" "V" "VC" "_" "CV" "V" "V" "_" "CV" "_" "CV" "CVC" "CV" "_" "CVC" "CVC" "_" "CV"
+"CV" "CCV" "CV" "_" "CV" "CV" "_" "CVC" "_" "CV" "VC" "CVC" "_" "CVC" "_" "CVC" "_" "CVC" "CV" "CCVC" "_" "CV" "_" "CV" "_" "CVC" "CV" "_" "V" "_" "CVC" "_" "CV" "VC" "_" "CV"
+"VC" "CCV" "CV" "CV" "CV" "_" "CV" "_" "CVC" "CV" "CV" "_" "CVC" "_" "CV" "_" "CV" "CCVCC" "_" "CV" "_" "CV" "_" "CVC" "_" "CV" "CV" "_" "CVC" "CV" "_" "VC" "_" "CV" "_" "CV" "CV" "_" "V" "CV"
+"V" "CV" "_" "CV" "V" "_" "CV" "CV" "CV" "_" "CV" "_" "CVC" "_" "CV" "V" "CVC" "CV" "_" "V" "_" "V" "CV" "_" "CV" "CCV" "CV" "_" "CV" "V" "_" "CV" "_" "CCV" "CV" "CV" "_" "V" "_" "CVC" "_" "CV" "VC" "CV"
+"V" "_" "VC" "_" "CV" "CV" "_" "CV" "_" "CVC" "CV" "_" "V" "_" "CCV" "CV" "_" "CV" "V" "_" "VCC" "_" "VC" "CV" "CCV" "CV" "_" "VC" "_" "CV" "CVC" "_" "CV" "CV" "_" "CV" "CV" "CV" "_" "CV"
+"CV" "CV" "CV" "CV" "_" "CCV" "CV" "CV" "_" "CV" "_" "V" "CVC" "_" "CV" "_" "CV" "VC" "CCV" "_" "CV" "CVC" "CV" "_" "CVC" "_" "CVC" "_" "CVC" "CV" "VC" "CV" "_" "V" "CVC" "_" "V" "CV" "_" "CV"
+"CVC" "CCV" "CV" "VC" "_" "CV" "CV" "V" "_" "CV" "CV" "_" "CV" "_" "CVC" "CVC" "_" "VC" "CV" "CV" "_" "CV" "_" "CVC" "CCV" "_" "CCVC" "_" "CV" "CCV" "CV" "CVC" "_" "V" "_" "V" "CV" "CV"
+"CV" "_" "CV" "_" "CV" "CV" "_" "CV" "V" "V" "CVC" "_" "CV" "CVC" "_" "CV" "V" "_" "CVC" "CV" "_" "VC" "_" "CV" "CCV" "CVC" "CCV" "_" "CV" "_" "CV" "V" "CV" "CV" "_" "V" "_" "CV" "V" "CV" "CV"
+"CV" "V" "_" "VC" "_" "VC" "CV" "_" "CV" "V" "_" "VC" "CV" "CV" "_" "CV" "CV" "CVC" "CV" "V" "_" "VC" "_" "CVC" "_" "V" "V" "CV" "CVC" "_" "CV" "V" "_" "CVC" "CV" "_" "CV" "CV" "_" "VC" "CCV" "CVC"
+"V" "VC" "CV" "V" "_" "CVC" "_" "CVC" "CV" "CV" "CVC" "_" "CV" "CVCC" "CV" "CVC" "_" "CV" "_" "CV" "CV" "_" "VC" "CVC" "CVC" "_" "CV" "V" "_" "CV" "_" "CCV" "CV" "CV"
+"CV" "V" "CV" "CV" "_" "CV" "CV" "_" "VC" "CV" "_" "VC" "CVC" "CV" "_" "CV" "CV" "_" "V" "_" "CV" "VC" "CCV" "_" "CV" "VC" "CV" "_" "CVC" "CV" "_" "CV" "V" "_" "VC" "_" "CV" "_" "CV" "CCV" "CV" "VC"
+"CVC" "_" "CV" "_" "CV" "_" "CVC" "CV" "_" "VC" "_" "CVC" "CV" "_" "CV" "_" "CV" "_" "CVC" "CVC"
+"VC" "_" "CV" "VC" "_" "CV" "_" "CV" "CVC" "_" "CV" "V" "_" "VC" "CV" "_" "CV" "CCV" "CV" "CCV" "_" "CV" "CVC" "CV" "_" "CVC" "_" "CV" "CVC" "_" "CV" "V" "_" "VC" "CV" "CV"
+"V" "CV" "V" "CV" "_" "CV" "V" "_" "V" "CVC" "_" "CVC" "_" "CVC" "_" "CVC" "_" "V" "CV" "_" "CV" "_" "CV" "CV" "_" "V" "_" "CV" "VC" "_" "CV" "CCVC" "_" "CV" "_" "CV" "CVC" "CVC" "CVC" "_" "CVC"
+"CVC" "CV" "_" "V" "CV" "CV" "VC" "_" "V" "_" "CVC" "CV" "_" "CV" "V" "_" "VC" "CV" "CV" "_" "CV" "CV" "_" "CV" "_" "CV" "CV" "_" "CVC" "CV" "_" "VC" "_" "V" "CVC" "CV" "CV" "V" "_" "CV" "_" "CV"
+"CV" "CV" "_" "V" "_" "V" "VC" "_" "CV" "_" "V" "CCV" "CVC" "CCV" "CV" "VC" "_" "CV" "_" "CV" "_" "CV" "CV" "VC" "CV" "_" "V" "_" "CCV" "CV" "_" "V" "_" "CVC" "CV" "_" "CV" "_" "CV" "CV" "V" "CV" "CVC"
+"V" "_" "CV" "CV" "CV" "CV" "_" "VC" "_" "VC" "CV" "_" "CV" "V" "_" "CVC" "CV" "V" "_" "CVC" "CVC" "_" "CV" "CV" "CVC" "_" "CV" "_" "CV" "VC" "CV" "_" "CV" "_" "CVC" "CCV" "CV" "CV" "_" "CV" "CV"
+"CVC" "CCVC" "_" "CV" "CCVC" "_" "CV" "_" "CV" "CVC" "CVC" "CVC" "_" "VC" "_" "CV" "V" "_" "CV" "VC" "_" "V" "_" "VCC" "_" "CCV" "CV" "_" "V" "_" "CV" "_" "CV" "CV" "_" "CV" "CVC"
+"CV" "VC" "CVC" "_" "CV" "CV" "_" "CV" "CVC" "_" "CVC" "CVC" "_" "V" "_" "CV" "_" "CV" "CVC" "_" "CVC" "CV" "CVC" "_" "CV" "_" "CV" "CV" "CV" "VC" "_" "CVC" "_" "CV" "VC" "_" "CV" "CV"
+"CVC" "_" "CV" "V" "_" "CVC" "CV" "CV" "_" "VC" "_" "CV" "CV" "CV" "_" "CV" "CV" "CV" "V" "CV" "_" "CV" "_" "CVC" "CV" "_" "CVC" "CV" "V" "_" "CV" "_" "CCV" "CV" "CVC" "_" "CV" "_" "CV"
+"CCV" "CV" "_" "V" "_" "V" "CV" "VC" "CVC" "_" "VC" "CCV" "CV" "CVC" "_" "CV" "CV" "CVC" "_" "CV" "V" "VC" "_" "CV" "_" "CV" "CV" "CV" "VC" "_" "CV" "_" "CVC" "CVC" "_" "V" "_" "CVC"
+"CV" "VC" "CV" "_" "CCV" "CV" "CV" "_" "V" "_" "CV" "VC" "_" "V" "CV" "VC" "CVC" "_" "CV" "CV" "V" "V" "CCVC" "_" "V" "_" "CVC" "CVC" "_" "CV" "_" "CV" "CV" "CV" "VC" "_" "CVC" "CV" "_" "VC"
+"CVC" "CVC" "_" "CVC" "CVC" "_" "CV" "CCV" "CV" "_" "VC" "CCV" "CV" "_" "CV" "_" "CV" "CVC" "_" "CV" "_" "CV" "_" "CVC" "CV" "CVC" "_" "CV" "V" "_" "V" "_" "CV" "_" "CV" "CVC" "_" "CV"
+"CV" "CV" "_" "CV" "_" "CVC" "_" "CV" "CV" "CV" "_" "CV" "_" "CV" "CVC" "_" "VC" "CCV" "CV" "V" "CV" "_" "CV" "V" "_" "CVC" "_" "CV" "CVC" "_" "CV" "_" "CV" "V" "CV" "_" "CV" "_" "CV"
+"CV" "VC" "CCV" "_" "CVC" "CV" "CV" "CV" "_" "V" "_" "CVC" "CV" "VC" "_" "CV" "VC" "CV" "_" "CV" "V" "V" "_" "CVC" "_" "VC" "CVC" "_" "CV" "V" "CVC" "_" "CV" "V" "_" "CV"
+"CV" "VC" "CCV" "_" "CV" "CV" "CV" "CVC" "_" "CV" "CV" "CV" "CVC" "CV" "_" "CVC" "_" "CVC" "_" "VC" "CCV" "CCVC" "_" "VC" "_" "CVC" "CV" "CV" "CVC" "_" "V" "_" "VC" "_" "CV" "CVC"
+"CV" "CV" "CV" "CV" "CV" "_" "CVC" "_" "CV" "CV" "CV" "CV" "VC" "CV" "_" "CV" "V" "_" "CV" "CV" "CV" "_" "CV" "_" "CV" "VC" "CCV" "_" "CCVC" "CV" "CV"
+"CVC" "_" "VC" "CVC" "_" "CV" "CV" "CVC" "_" "CVC" "CV" "V" "_" "VC" "_" "CV" "CCV" "_" "CV" "CV" "CCV" "CV" "_" "VC" "_" "CV" "V" "CV" "V" "_" "V" "_" "CVC" "CV" "CV" "CV" "CV" "_" "CVC"
+"VC" "CVC" "CVC" "CVC" "_" "V" "_" "CV" "CVC" "CCV" "CVC" "CVC" "_" "VC" "_" "CVC" "CV" "CV" "_" "CV" "V" "_" "CV" "_" "CV" "_" "CV" "_" "CV" "CV" "CV" "_" "CV" "_" "CVC"
+"VC" "CVC" "CV" "V" "CV" "_" "VC" "_" "CVC" "CV" "_" "V" "CVC" "CV" "CV" "CVC" "_" "CV" "_" "CV" "CV" "CV" "CV" "CV" "_" "CV" "CV" "_" "CV" "CV" "_" "V" "CCV" "_" "CV" "_" "VC" "CV" "CV"
+"CV" "V" "_" "CV" "VC" "_" "CVC" "_" "CVC" "_" "CV" "CV" "CVC" "_" "CV" "V" "_" "CVC" "_" "CV" "CV" "V" "CVC" "_" "CV" "CV" "_" "V" "_" "CV" "CV" "CV" "V" "_" "CVC" "CV" "V" "_" "CV"
+"V" "CV" "CV" "CV" "CV" "_" "CV" "V" "_" "CVC" "_" "CCVC" "CVC" "_" "CV" "VC" "CCVC" "_" "CV" "V" "_" "CV" "_" "CV" "CV" "V" "CVC" "_" "CV" "CV" "CV" "_" "CV" "_" "CV" "CVC" "CV" "_" "CV"
+"CV" "CVC" "_" "VC" "_" "CVC" "CCV" "_" "V" "_" "CV" "CV" "_" "VC" "_" "CV" "VC" "CV" "_" "CCV" "CV" "_" "CV" "_" "CV" "CV" "CCV" "CVC" "_" "V" "_" "CV" "CV" "CVC" "_" "CV" "CV" "_" "CVC"
+"CV" "CV" "_" "V" "CV" "CV" "CV" "_" "VC" "_" "CV" "_" "V" "V" "CVC" "_" "V" "CV" "VC" "_" "V" "CV" "CVC" "_" "CV" "_" "CV" "CCV" "_" "CVC" "_" "CV" "_" "CCV" "CV" "CV" "_" "CV" "_" "V" "CV" "V" "CCV"
+"V" "CV" "CV" "CV" "CCV" "_" "V" "CVC" "CV" "CV" "_" "V" "_" "CVC" "CVC" "_" "CV" "CVC" "_" "CV" "_" "CV" "CV" "_" "CV" "CV" "V" "_" "CV" "_" "CV" "CVC" "_" "CV" "_" "CCV" "CV" "_" "V" "_" "CV" "CCV"
+"CVC" "_" "VC" "_" "CV" "V" "_" "CV" "_" "CV" "_" "CV" "CCV" "_" "CV" "CV" "_" "V" "CCV" "_" "CV" "_" "CCV" "CV" "CV" "_" "V" "_" "CVC" "_" "CV" "CV" "_" "VC" "CV" "CV" "_" "CV" "_" "CV" "CV" "V" "CV"
+"V" "_" "V" "VC" "_" "CV" "CV" "V" "CV" "_" "CVC" "_" "V" "CCV" "_" "CV" "_" "V" "CCVC" "_" "CV" "V" "V" "CVC" "_" "V" "_" "CVC" "CV" "CV" "VC" "_" "CVC" "CV" "CV" "VC" "CVC" "_" "CV" "_" "CV" "_" "CV"
+"VC" "CVC" "CV" "CVC" "_" "CV" "CV" "_" "CVC" "CVC" "_" "CV" "CVC" "_" "CVC" "CV" "CVC" "CV" "V" "_" "CVC" "_" "VC" "_" "CV" "CV" "_" "CV" "_" "CV" "_" "CV" "CVC" "_" "CV" "V" "_" "V" "CV"
+"CVC" "CCV" "_" "CVC" "CV" "_" "CCV" "CV" "V" "CV" "_" "VC" "_" "CV" "CV" "VC" "CV" "_" "CV" "CCV" "_" "CV" "VC" "_" "CV" "CV" "V" "_" "CV" "CV" "_" "CV" "CVC" "_" "CV" "CV" "CCV" "CV"
+"CVC" "CV" "CVC" "_" "CV" "_" "VC" "CV" "CV" "CVC" "CV" "_" "V" "_" "V" "CV" "CVC" "_" "CV" "_" "CV" "V" "CV" "_" "CVC" "_" "CV" "V" "CV" "_" "CV" "CV" "CVC" "_" "CVC" "CV" "CV" "_" "CVC"
+"CVC" "CV" "_" "CV" "V" "CCV" "_" "CV" "CV" "V" "_" "CV" "V" "_" "CVC" "CV" "CV" "_" "CCV" "CV" "CV" "_" "VC" "_" "CV" "CV" "CCV" "CV" "_" "CVC" "_" "CV" "CV" "_" "V" "_" "CV" "V" "_" "CV"
+"VC" "CV" "CV" "_" "CV" "_" "CV" "_" "CV" "CV" "V" "_" "CVC" "CV" "CVC" "_" "V" "CV" "_" "CVC" "_" "CV" "CV" "VC" "_" "CVC" "CV" "CV" "_" "CV" "_" "V" "CV" "CVC" "_" "CV" "_" "CV" "V" "CV"
+"CVC" "CV" "V" "_" "CVC" "CV" "_" "CV" "V" "_" "V" "CV" "CV" "CV" "CV" "_" "CVC" "CV" "CV" "VC" "_" "CV" "CV" "_" "CV" "CV" "_" "CV" "V" "_" "CV" "_" "V" "CV" "_" "CV" "CV" "CCV" "CV"
+"CV" "CVC" "CCV" "CV" "_" "CV" "_" "CVC" "_" "CCV" "CVC" "_" "CV" "CV" "_" "CV" "_" "CVC" "CV" "CV" "_" "V" "_" "CV" "V" "_" "VC" "_" "CV" "_" "CV" "_" "CV" "_" "CV" "CVC" "CV" "V" "_" "CV" "_" "CV"
+"V" "CV" "_" "VC" "_" "CV" "CV"
+"VC" "_" "CV" "CV" "CV" "CV" "VC" "_" "VC" "_" "CV" "_" "VC" "CCVC" "CV" "_" "CVC" "CV" "_" "VC" "_" "CV" "_" "CV" "CV" "CV" "_" "CV" "V" "_" "CV" "_" "CV" "_" "CV" "CV" "CVC" "_" "CVC"
+"CV" "CCVC" "_" "CV" "V" "VC" "CV" "_" "CV" "_" "CCV" "CV" "_" "VC" "_" "CCV" "CV" "_" "V" "_" "CVC" "_" "CV" "VC" "_" "CV" "_" "CVC" "CV" "V" "_" "VC" "_" "CVC" "CV" "V" "_" "V" "_" "V" "CV"
+"CVC" "_" "CV" "CV" "_" "CVC" "CVC" "_" "V" "_" "CVC" "_" "CV" "CCV" "_" "CV" "VC" "_" "CV" "_" "CV" "_" "CV" "CV" "_" "VC" "_" "CV" "CV" "CCV" "_" "CV" "_" "CV" "CV" "CV" "_" "CV" "V" "_" "CV" "CV"
+"V" "_" "CVC" "CVC" "_" "VC" "_" "CV" "V" "CV" "V" "_" "CCV" "CV" "CV" "CV" "_" "CV" "_" "CVC" "CVC" "CV" "_" "CV" "_" "CV" "CV" "_" "V" "CV" "V" "CCV" "_" "CV" "V" "_" "CV" "V" "V" "_" "VC" "_" "CVC"
+"CV" "CCVC" "_" "VCC" "_" "CV" "_" "VC" "CVC" "CV" "CVC" "CVC" "_" "CV" "CV" "_" "CV" "_" "CVC" "CVC" "CV" "VC" "_" "CV" "CVC" "CVC" "_" "CV" "CV" "CV" "VC"
+"CV" "CV" "CVC" "_" "CV" "CV" "V" "V" "CCVC" "_" "V" "CV" "CVC" "_" "CVC" "CVC" "CVC" "_" "V" "_" "CVC" "CV" "CV" "CVC" "_" "VC" "CV" "CV" "CCVC" "_" "V"
+"V" "CVC" "_" "CV" "CV" "CV" "_" "CV" "_" "CVC" "_" "CV" "CV" "_" "VC" "_" "CV" "_" "V" "CV" "CV" "CV" "CV" "VC" "_" "CV" "V" "_" "V" "CV" "_" "CVC" "CVC" "_" "CV" "CV" "_" "V" "CV" "V" "CCV"
+"CV" "CV" "V" "CV" "_" "CV" "_" "V" "CV" "VC" "CVC" "_" "CV" "CV" "CVC" "_" "CV" "CV" "CVC" "_" "VC" "CVC" "CV" "V" "CVC" "_" "CV" "V" "_" "CV" "V" "V" "_" "CV" "V" "_" "CV" "CV" "_" "VC" "_" "CV"
+"CV" "CV" "V" "_" "V" "CCV" "_" "CVC" "CV" "CV" "V" "_" "CVC" "_" "CV" "VC" "CV" "_" "VC" "_" "VC" "_" "CVC" "CV" "_" "CV" "CV" "V" "_" "VC" "_" "CV" "V" "_" "VC" "_" "CVC" "_" "CV" "V" "_" "CCVC"
+"CV" "CV" "V" "_" "CV" "CV" "_" "CV" "V" "_" "CV" "VC" "_" "CV" "CV" "CCV" "CV" "_" "CV" "CV" "_" "CV" "V" "_" "CV" "_" "CVC" "CV" "_" "CV" "V" "_" "CVC" "_" "CVC" "_" "VC" "_" "CV" "CV" "CCV" "CV"
+"CV" "_" "CV" "_" "VC" "CV" "VC" "CV" "_" "VC" "CV" "CV" "_" "CV" "V" "_" "CV" "_" "CV" "CV" "_" "VC" "_" "CV" "CVC" "_" "CV" "CV" "V" "_" "CVC" "CV" "CV" "_" "CVC" "_" "CV" "CV" "V" "_" "CVC"
+"CV" "V" "CVC" "_" "V" "_" "CVC" "CV" "CV" "CV" "CVC" "_" "CV" "CVC" "CVC" "_" "CV" "CVC" "_" "VC" "CV" "CV" "_" "CVC" "_" "CVC" "CVC" "CV" "_" "CVC" "_" "CVC" "CV" "V"
+"CVC" "CV" "V" "_" "VC" "_" "CVC" "CVC" "CVC" "CVC" "_" "CV" "CV" "V" "_" "CV" "VC" "CV" "_" "V" "_" "CVC" "CVC" "_" "VC" "_" "VC" "CVC" "CV" "CV" "_" "CV" "CV" "VC" "CV" "CV" "_" "CV" "_" "CV"
+"VC" "CVC" "CCV" "V" "_" "CV" "_" "CVC" "CV" "CVC" "_" "CV" "VC" "CV" "_" "V" "CV" "CV" "_" "V" "_" "VC" "CV" "V" "_" "VC" "_" "CV" "CV" "_" "CV" "_" "CV" "_" "CV" "VC" "CV" "_" "VC" "CCV"
+"CVC" "_" "CCV" "CVC" "_" "CV" "CV" "V" "_" "CV" "CCV" "_" "CV" "VC" "_" "CVC" "_" "CV" "CVC" "CV" "_" "CVC" "CVC" "CV" "_" "CVC" "CV" "V" "_" "CVC" "_" "CVC" "_" "CV"
+"V" "CV" "V" "CCV" "_" "CV" "CV" "CV" "CV" "VC" "_" "CV" "CVC" "CV" "V" "_" "CV" "V" "_" "CV" "CVC" "_" "CVC" "_" "CV" "CVC" "CV" "VC" "_" "V" "_" "CVC" "CV" "CV" "CV" "CVC" "_" "VC"
+"CV" "CV" "_" "V" "CV" "_" "V" "CV" "CCV" "_" "V" "_" "CV" "VC" "_" "CCV" "V" "CV" "_" "CV" "CV" "_" "CV" "CCV" "_" "CV" "CVC" "_" "VC" "CV" "CV" "_" "CV" "VC" "_" "CVC" "_" "CV" "V" "CVC" "CVC"
+"CV" "_" "CVC" "CVC" "CVC" "_" "V" "_" "CVC" "_" "CV" "VC" "CV" "_" "CV" "_" "CV" "V" "V" "_" "CV" "CVC" "_" "CV" "_" "CV" "_" "CVC" "CV" "CCV" "_" "V" "_" "CV" "CVC" "_" "CV" "VC" "CVC"
+"CV" "CV" "CV" "_" "V" "_" "CV" "VC" "CV" "_" "VC" "_" "VC" "CVC" "CV" "_" "CV" "CV" "_" "V" "CV" "VC" "_" "V" "CV" "CV" "_" "CV" "_" "CV" "CV" "CV" "_" "CV" "V" "_" "V" "CV" "_" "CV" "CV" "_" "CV" "_" "V" "CV"
+"CV" "CVC" "_" "CV" "CV" "_" "CV" "_" "CVC" "CV" "CV" "V" "_" "CV" "V" "CV" "_" "VC" "_" "CVC" "_" "CVC" "_" "V" "CV" "_" "CV" "CV" "_" "CV" "_" "CV" "CVC" "_" "VC" "_" "CCV" "V" "CVC" "_" "CV"
+"CV" "CV" "CVC" "_" "VC" "_" "V" "CV" "_" "CV" "V" "_" "CVC" "CV" "_" "V" "_" "V" "VC" "_" "V" "_" "CV" "_" "CV" "CCV" "CV" "_" "CV" "_" "V" "CV" "CV" "CV" "CV"
+"VC" "_" "V" "CV" "CV" "_" "CV" "CV" "CV" "CV" "_" "V" "V" "_" "CV" "_" "CV" "V" "CV" "V" "_" "CV" "CV" "_" "V" "_" "CVC" "_" "VC" "_" "VC" "_" "CVC" "_" "VC" "CCV" "CV" "_" "CVC" "CV" "CV" "VC" "CV"
+"CV" "V" "_" "CV" "CVC" "_" "CV" "V" "_" "CV" "CV" "_" "VC" "_" "VC" "_" "CVC" "CV" "_" "V" "_" "CV" "V" "_" "CV" "V" "_" "CV" "_" "CV" "CV" "CV" "V" "_" "CVC" "CV" "CV" "CCV" "_" "V"
+"CV" "CV" "CV" "CV" "V" "_" "VCC" "_" "CV" "CV" "_" "VC" "_" "V" "V" "CVC" "CV" "_" "CV" "_" "CV" "_" "CVC" "CV" "_" "CV" "CV" "_" "CV" "CV" "_" "VC" "_" "CVC" "CV" "CV" "V" "_" "CV" "_" "CV"
+"CV" "CV" "CCV" "CV" "_" "CV" "CVC" "CV" "_" "CV" "CV" "CCV" "CV" "_" "VC" "CVC" "CV" "_" "V" "_" "VC" "CV" "_" "CVC" "_" "CV" "CV" "_" "VC" "_" "CVC" "CV" "_" "CVC" "_" "CVC"
+"VC" "CVC" "_" "V" "_" "CV" "CV" "CCV" "_" "V" "_" "CVC" "CVC" "_" "CVC" "_" "V" "CVC" "CV" "CVC" "_" "V" "_" "V" "_" "V" "CVC" "CV" "CVC" "CV" "_" "VC" "_" "CV" "CV" "_" "V" "CV" "V" "CCV" "_" "CV" "V"
+"VC" "_" "CV" "CV" "V" "_" "CV" "V" "CV" "_" "CV" "V" "_" "CVC" "_" "CV" "CV" "CCV" "CVC" "_" "VC" "CVC" "CVC" "_" "CV" "_" "V" "CVC" "CV" "CV" "CVC" "_" "CVC" "CV" "CV" "VC" "CV" "_" "CV" "CV"
+"CV" "CV" "CV" "_" "CV" "_" "V" "CCV" "CV" "V" "_" "V" "_" "CV" "CV" "VC" "CV" "CV" "_" "VC" "_" "V" "CV" "CV" "V" "CVC" "_" "V" "_" "CV" "CV" "CCVC" "_" "CVC" "CV" "_" "V" "CV" "CVC" "CV" "CVC"
+"CV" "CCV" "CV" "_" "V" "CVC" "CV" "_" "CVC" "CCV" "_" "V" "_" "CV" "CV" "_" "V" "CV" "CV" "CV" "CV" "CV" "_" "VC" "_" "CV" "CCV" "_" "V" "V" "_" "CV" "CV" "CV" "CV" "_" "CVC" "_" "VC" "_" "CV" "CVC"
+"CV" "_" "CV" "_" "CCV" "CV" "_" "CVC" "_" "CV" "_" "CV" "CVC" "_" "CVC" "_" "VC" "CV" "CV" "V" "_" "CV" "_" "CCV" "CV" "CVC" "CV" "_" "V" "_" "VCC" "_" "CVC" "_" "VC" "CVC" "_" "CVC"
+"V" "CCV" "CV" "CCVC" "_" "CVC" "CV" "CV" "VC" "CVC" "_" "CCV" "CV" "CV" "_" "CVC" "_" "VC" "CCV" "CV" "_" "CVC" "CV" "_" "CV" "V" "_" "VC" "_" "VC" "CVC" "_" "CVCC" "CV" "_" "CV"
+"CV" "V" "_" "CCV" "V" "CV" "_" "V" "_" "CV" "CVC" "_" "VC" "_" "V" "CV" "CV" "_" "CV" "_" "CV" "V" "_" "CV" "CV" "V" "CV"
+"V" "_" "CV" "_" "CCV" "CV" "CV" "_" "CV" "V" "_" "CV" "CV" "_" "CV" "V" "_" "CVC" "CV" "VC" "_" "V" "CVC" "_" "VC" "CVC" "_" "CV" "V" "_" "CV" "CV" "VC" "_" "CV" "CV" "_" "CV" "_" "CVC"
+"CV" "CV" "CV" "V" "CVC" "_" "CV" "V" "_" "CV" "CV" "CVC" "_" "CV" "_" "V" "CVC" "_" "V" "_" "CCV" "CVC" "_" "CV" "_" "CV" "CV" "_" "CV" "VC" "CVC" "_" "CV" "CCVC" "_" "CV" "CV" "V" "_" "CV" "V"
+"VC" "CV" "CVC" "_" "CV" "VC" "CVC" "_" "V" "_" "VC" "CV" "CV" "CVC" "_" "VC" "_" "VC" "_" "CVC" "CVC" "_" "CVC" "CV" "V" "CVC" "_" "V" "_" "V" "CV" "CV" "CV" "CVC" "_" "CV" "_" "CV" "CVC"
+"CV" "V" "_" "CV" "CV" "_" "CV" "CV" "_" "CV" "V" "_" "CV" "V" "_" "CVC" "CVC" "_" "V" "CV" "_" "CCVC" "_" "CVC" "CV" "_" "V" "_" "V" "CV" "_" "CV" "V" "_" "CV" "_" "CVC" "CVC" "_" "CV" "CV" "CV" "_" "CV"
+"VC" "CV" "CV" "_" "CV" "CV" "_" "CVC" "CV" "VC" "_" "CVCC" "CV" "_" "CVC" "_" "V" "_" "VC" "CV" "_" "CV" "CCV" "V" "_" "CV" "_" "VC" "CVC" "CCV" "V" "_" "CVC" "CV" "V" "_" "CV"
+"CVC" "CV" "CVC" "_" "CV" "CV" "_" "VC" "_" "CV" "CV" "_" "CV" "_" "CV" "CV" "V" "_" "CV" "CV" "CV" "_" "CV" "V" "_" "VC" "CV" "CV" "CV" "_" "CVC" "_" "VC" "_" "CVC" "CV" "VC" "_" "CV" "CV" "VC"
+"V" "CV" "_" "V" "CV" "CV" "VC" "CV" "V" "_" "CV" "_" "CV" "CV" "CV" "_" "VC" "CV" "CV" "_" "VC" "_" "CVC" "CVC" "_" "CV" "V" "_" "CV" "CV" "_" "CCV" "CVC" "_" "CV" "_" "V" "CV" "_" "CV" "VC" "CV" "_" "V"
+"CV" "CV" "V" "_" "VC" "CVC" "_" "VC" "_" "CV" "VC" "CV" "_" "CV" "_" "V" "CV" "_" "CV" "CCV" "CCV" "CV" "_" "CV" "CV" "_" "CV" "_" "VC" "CV" "CV" "_" "V" "_" "CV" "_" "CV" "V" "_" "CVC"
+"CVC" "CVC" "_" "V" "_" "CVC" "_" "VC" "_" "CCV" "CV" "CV" "_" "V" "_" "VC" "_" "VC" "_" "CVC" "CV" "_" "CVC" "CV" "CV" "_" "CV" "_" "CV" "V" "_" "CV" "CV" "V" "_" "CV" "CCV" "_" "VC" "_" "V" "CV"
+"CV" "CV" "CV" "_" "V" "_" "CV" "_" "CV" "CV" "_" "CV" "_" "CV" "CV" "CVC" "CV" "_" "CVC" "_" "CV" "_" "CV" "CV" "CV" "CVC" "_" "CVC" "_" "CV" "V" "_" "CV" "_" "CV" "CV" "V" "_" "CV" "CCV"
+"CV" "CV" "CVC" "_" "V" "_" "CVC" "_" "V" "CV" "CV" "CV" "CCV" "_" "CVC" "CV" "_" "CV" "CV" "CCV" "_" "CV" "_" "CVC" "CV" "_" "V" "_" "CV" "CVC" "_" "CV" "_" "CV" "V" "CV"
+"CV" "CV" "VC" "CV" "CV" "_" "V" "CVC" "_" "CVC" "CVC" "_" "CV" "_" "CV" "VC" "CV" "_" "CVC" "_" "CV" "_" "CVC" "CCV" "_" "CV" "_" "CVC" "_" "CV" "CV" "CV" "_" "CV" "V" "_" "VC" "_" "CV" "V" "CV"
+"CV" "CVC" "CV" "CCV" "_" "CV" "_" "CV" "_" "CVC" "CV" "CV" "CV" "_" "V" "_" "CVC" "_" "CV" "V" "CVC" "_" "CV" "CVC" "_" "CV" "V" "CV" "_" "VC" "CV" "CV" "VC" "CV" "V" "_" "CV" "CCV" "_" "CV"
+"CV" "CV" "CV" "_" "V" "_" "CV" "CV" "_" "CVC" "_" "CV" "CV" "CV" "_" "CVC" "CCV" "CV" "_" "CV" "_" "VC" "CV" "CV"
+"CV" "V" "_" "CV" "V" "CV" "_" "V" "_" "CVC" "_" "CV" "_" "CV" "CVC" "_" "V" "_" "V" "VC" "CV" "V" "_" "CVC" "CV" "_" "CVC" "_" "CV" "VC" "CVC" "_" "CV" "V" "_" "VC" "_" "CV" "VC" "_" "V" "_" "CVC"
+----------------------------------------
+Begin PBS Epilogue Thu Apr 24 16:27:53 PDT 2014
+Job ID:           7908183.hpc-pbs.hpcc.usc.edu
+Username:         davidzha
+Group:            csci-ar
+Job Name:         script3a.sh
+Session:          30188
+Limits:           neednodes=1,nodes=1,walltime=01:00:00
+Resources:        cput=00:01:52,mem=77284kb,vmem=246916kb,walltime=00:01:57
+Queue:            quick
+Shared Access:    no
+End PBS Epilogue Thu Apr 24 16:27:53 PDT 2014
+----------------------------------------
