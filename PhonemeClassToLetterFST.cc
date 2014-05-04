@@ -3,11 +3,9 @@
 #include <sstream>
 #include <vector>
 
-#include "CypherReader.h"
-
 using namespace std;
 
-const string FST_FILE = "phoneme_to_letter_nsv.fst";
+const string FST_FILE = "phoneme_class_to_letter.fst";
 const string EMPTY = "*e*";
 
 void WriteLine(ofstream &fout, const string &node1, const string &node2,
@@ -47,38 +45,26 @@ void WriteLine(ofstream &fout, const string &node1, const string &node2,
 }
 
 int main(int argc, char *argv[]) {
-  if (argc != 2) {
-    cerr << "Usage: ./<exec> <cipher file>" << endl;
+  if (argc != 1) {
+    cerr << "Usage: ./<exec> " << endl;
     return 0;
   }
-  vector<string> inputs;
-  inputs.push_back("S");
-  inputs.push_back("N");
-  inputs.push_back("V");
-  string filename_for_cypher = argv[1];
-  vector<string> observed_data;
-  set<string> letters;
-  bool got_obs_data = CypherReader::GetObservedData(filename_for_cypher,
-                                                    &observed_data,
-                                                    &letters);
-  if (!got_obs_data) {
-    cerr << "Error getting observed data." << endl;
-    return 1;
-  }
+  vector<string> v_or_c{"V", "C"};
+  vector<string> letters{"A", "I", "N", "O", "U", "a", "b", "c", "d", "e",
+"f", "g", "h", "i", "j", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v",
+"y", "z" };
+//   vector<string> tag_list{"B", "D", "G", "J", "L", "T", "a", "b", "d", "e", "f",
+//     "g", "i", "k", "l", "m", "n", "o", "p", "r", "rr", "s", "t", "tS", "u",
+//     "h"};
   // Begin writing the FST.
   ofstream fout;
   fout.open(FST_FILE.c_str());
   string only_node = "0";
   fout << only_node << endl;
-  // Remove the _ that was read in!
-  letters.erase("_");
   WriteLine(fout, only_node, only_node, "_", "_");
-  for (int i = 0; i < inputs.size(); ++i ) {
-    string in = inputs[i];
-    set<string>::iterator it;
-    for (it = letters.begin(); it != letters.end(); ++it) {
-      string letter = *it;
-      WriteLine(fout, only_node, only_node, in, letter);
+  for (string cv : v_or_c) {
+    for (string tag : letters) {
+      WriteLine(fout, only_node, only_node, cv, tag);
     }
   }
   fout.close();

@@ -6,7 +6,7 @@
 
 using namespace std;
 
-const string FST_FILE = "type_to_more_phonemes.fst";
+const string FST_FILE = "type_to_more_phoneme_classes.fst";
 const string EMPTY = "*e*";
 
 void WriteLine(ofstream &fout, const string &node1, const string &node2,
@@ -67,7 +67,6 @@ int main(int argc, char *argv[]) {
   fout << start_node << endl;
   WriteLine(fout, start_node, start_node, "_", "_", 1, "!");
   WriteLine(fout, start_node, start_node, "V", "V", 1, "!");
-  // TODO: something's wrong...
   int i = 1;
   for (int j = 0; j < syl_types.size(); ++j) {
     string type = syl_types[j];

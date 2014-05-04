@@ -5,7 +5,7 @@
 
 using namespace std;
 
-const string FST_FILE = "type_to_phoneme.fst";
+const string FST_FILE = "type_to_phoneme_class.fst";
 const string EMPTY = "*e*";
 
 void WriteLine(ofstream &fout, const string &node1, const string &node2,

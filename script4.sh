@@ -1,10 +1,10 @@
 #!/bin/sh
 #PBS -l walltime=1:00:00
 cd $PBS_O_WORKDIR
-# Like script2, except now we deal with N, S, and V - the end of the 06 paper!
-# cipher_file='Ciphers/spanish.written_short.quoted.txt'
+# After 1-3a, add 4p (4 prime): phoneme class to phoneme, and 5p: phoneme to letter
+cipher_file='Ciphers/spanish.written_short.quoted.txt'
 # cipher_file='Ciphers/spanish.written_one_third.txt'
-cipher_file='Ciphers/spanish.written.quoted.txt'
+# cipher_file='Ciphers/spanish.written.quoted.txt'
 
 clang++ SyllableGenerator.cc -o 1.out
 ./1.out
@@ -25,5 +25,5 @@ awk 'NF>0' $cipher_file > cipher.data.noe
 # Remove last machine's input. Why is this needed for the
 # last machine on the left? Answer: This makes x:a to a:a, so you drop any x
 # after this a. The output we want to see is the "a".
-carmel --project-right --project-identity-fsa -HJ type_to_more_phonemes.fst.trained > type_to_more_phonemes.fst.noe 
-cat cipher.data.noe | carmel -qbsriWEIk 1 type_to_more_phonemes.fst.noe diphthong_generator2.fst.trained phoneme_to_letter_nsv.fst.trained
+# carmel --project-right --project-identity-fsa -HJ type_to_more_phonemes.fst.trained > type_to_more_phonemes.fst.noe 
+cat cipher.data.noe | carmel -qbsriWEIk 1 onset_maximizing_filter.fst.trained type_to_more_phonemes.fst.trained diphthong_generator2.fst.trained phoneme_to_letter_nsv.fst.trained
