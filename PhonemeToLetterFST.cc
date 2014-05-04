@@ -7,7 +7,7 @@
 
 using namespace std;
 
-const string FST_FILE = "phoneme_class_to_letter_nsv.fst";
+const string FST_FILE = "phoneme_to_letter.fst";
 const string EMPTY = "*e*";
 
 void WriteLine(ofstream &fout, const string &node1, const string &node2,
@@ -48,13 +48,9 @@ void WriteLine(ofstream &fout, const string &node1, const string &node2,
 
 int main(int argc, char *argv[]) {
   if (argc != 2) {
-    cerr << "Usage: ./<exec> <cipher file>" << endl;
+    cerr << "Usage: ./<exec> <cipher-file>" << endl;
     return 0;
   }
-  vector<string> inputs;
-  inputs.push_back("S");
-  inputs.push_back("N");
-  inputs.push_back("V");
   string filename_for_cypher = argv[1];
   vector<string> observed_data;
   set<string> letters;
@@ -67,14 +63,41 @@ int main(int argc, char *argv[]) {
     cerr << "Error getting observed data." << endl;
     return 1;
   }
+  // Get all Spanish phonemes.
+  vector<string> phonemes;
+  phonemes.push_back("B");
+  phonemes.push_back("D");
+  phonemes.push_back("G");
+  phonemes.push_back("J");
+  phonemes.push_back("L");
+  phonemes.push_back("T");
+  phonemes.push_back("a");
+  phonemes.push_back("b");
+  phonemes.push_back("d");
+  phonemes.push_back("e");
+  phonemes.push_back("f");
+  phonemes.push_back("i");
+  phonemes.push_back("k");
+  phonemes.push_back("l");
+  phonemes.push_back("m");
+  phonemes.push_back("n");
+  phonemes.push_back("o");
+  phonemes.push_back("p");
+  phonemes.push_back("r");
+  phonemes.push_back("rr");
+  phonemes.push_back("s");
+  phonemes.push_back("t");
+  phonemes.push_back("tS");
+  phonemes.push_back("u");
+  phonemes.push_back("x");
   // Begin writing the FST.
   ofstream fout;
   fout.open(FST_FILE.c_str());
   string only_node = "0";
   fout << only_node << endl;
   WriteLine(fout, only_node, only_node, "_", "_");
-  for (int i = 0; i < inputs.size(); ++i ) {
-    string in = inputs[i];
+  for (int i = 0; i < phonemes.size(); ++i ) {
+    string in = phonemes[i];
     set<string>::iterator it;
     for (it = letters.begin(); it != letters.end(); ++it) {
       string letter = *it;
