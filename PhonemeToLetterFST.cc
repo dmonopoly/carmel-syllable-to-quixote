@@ -89,7 +89,7 @@ int main(int argc, char *argv[]) {
   phonemes.push_back("t");
   phonemes.push_back("tS");
   phonemes.push_back("u");
-  phonemes.push_back("x");
+  phonemes.push_back("x"); // A consonant.
   // Begin writing the FST.
   ofstream fout;
   fout.open(FST_FILE.c_str());
