@@ -17,5 +17,4 @@ clang++ PhonemeToLetterFST.cc CypherReader.cc -o 3.out
 carmel --train-cascade -HJ -X .99999 -! 100 -:  $cipher_file syllables.wfsa syll_to_phonemes.fst phoneme_to_letter.fst
 # carmel --project-right --project-identity-fsa -HJ syllables.wfsa > syllables.wfsa.noe 
 awk 'NF>0' $cipher_file > cipher.data.noe 
-# carmel --project-right --project-identity-fsa -HJ type_to_more_phonemes.fst.trained > type_to_more_phonemes.fst.noe 
 cat cipher.data.noe | carmel -qbsriWEIk 1  phoneme_to_letter.fst.trained

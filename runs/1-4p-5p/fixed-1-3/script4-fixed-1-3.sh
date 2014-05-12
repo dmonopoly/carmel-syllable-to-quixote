@@ -15,11 +15,6 @@ clang++ PhonemeToLetterFST.cc CypherReader.cc -o 5p.out
 carmel --train-cascade -HJ -X .99999 -! 100 -: $cipher_file syllables.wfsa.trained syll_to_type.fst.trained onset_maximizing_filter.fst.trained type_to_more_phoneme_classes.fst.trained diphthong_generator2.fst.trained phoneme_class_to_phoneme.fst phoneme_to_letter.fst
 # carmel --project-right --project-identity-fsa -HJ syllables.wfsa > syllables.wfsa.noe 
 awk 'NF>0' $cipher_file > cipher.data.noe 
-# Remove last machine's input. Why is this needed for the
-# last machine on the left? Answer: This makes x:a to a:a, so you drop any x
-# after this a. The output we want to see is the "a".
 # carmel --project-right --project-identity-fsa -HJ type_to_more_phonemes.fst.trained > type_to_more_phonemes.fst.noe 
-
 cat cipher.data.noe | carmel -qbsriWEIk 1 phoneme_to_letter.fst.trained
 
-# cat cipher.data.noe | carmel -qbsriWEIk 1 onset_maximizing_filter.fst.trained type_to_more_phonemes.fst.trained diphthong_generator2.fst.trained phoneme_class_to_phoneme.fst.trained phoneme_to_letter.fst.trained
